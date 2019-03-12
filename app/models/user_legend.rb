@@ -1,0 +1,2 @@
+class UserLegend < ApplicationRecord
+end

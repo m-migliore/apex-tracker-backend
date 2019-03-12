@@ -1,0 +1,2 @@
+class GameDropsController < ApplicationController
+end

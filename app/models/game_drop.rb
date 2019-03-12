@@ -1,0 +1,2 @@
+class GameDrop < ApplicationRecord
+end
