@@ -1,7 +1,31 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+# Add Legends
+Legend.create(name: "Bloodhound", title: "Technological Tracker")
+Legend.create(name: "Gibraltar", title: "Shielded Fortress")
+Legend.create(name: "Lifeline", title: "Combat Medic")
+Legend.create(name: "Pathfinder ", title: "Forward Scout")
+Legend.create(name: "Wraith", title: "Interdimensional Skirmisher")
+Legend.create(name: "Bangalore", title: "Professional Soldier")
+Legend.create(name: "Caustic", title: "Toxic Trapper")
+Legend.create(name: "Mirage", title: "Holographic Trickster")
+puts "Legends Added"
+
+# Add Drop Locations
+Drop.create(name: "Slum Lakes", loot_tier: "Mid")
+Drop.create(name: "The Pit", loot_tier: "High")
+Drop.create(name: "Runoff", loot_tier: "High")
+Drop.create(name: "Airbase", loot_tier: "High")
+Drop.create(name: "Bunker", loot_tier: "High")
+Drop.create(name: "Cascades", loot_tier: "High")
+Drop.create(name: "Artillery", loot_tier: "High")
+Drop.create(name: "Relay", loot_tier: "High")
+Drop.create(name: "Wetlands", loot_tier: "Mid")
+Drop.create(name: "Swamps", loot_tier: "High")
+Drop.create(name: "Bridges", loot_tier: "Mid")
+Drop.create(name: "Hydro Dam", loot_tier: "Low")
+Drop.create(name: "Repulsor", loot_tier: "High")
+Drop.create(name: "Market", loot_tier: "Low")
+Drop.create(name: "Skull Town", loot_tier: "Mid")
+Drop.create(name: "Thunderdome", loot_tier: "High")
+Drop.create(name: "Water Treatement", loot_tier: "High")
+Drop.create(name: "Supply Ship", loot_tier: "High")
+puts "Drop Locations Added"

@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 2019_03_12_161019) do
 
   create_table "legends", force: :cascade do |t|
     t.string "name"
-    t.string "class"
+    t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
